@@ -1,0 +1,34 @@
+/* ModeloLogico: */
+
+CREATE TABLE Localizacao (
+    Beat INTEGER PRIMARY KEY,
+    Distrito INTEGER,
+    Ala INTEGER,
+    AreaComunitaria INTEGER
+);
+
+CREATE TABLE TipoCrime (
+    IUCR INTEGER PRIMARY KEY,
+    CategoriaCrime VARCHAR,
+    DescricaoCrime VARCHAR,
+    CodigoFBI VARCHAR
+);
+
+CREATE TABLE Casos (
+    IDCasos INTEGER PRIMARY KEY,
+    NumeroCaso INTEGER,
+    Data TIMESTAMP,
+    DescricaoLocal VARCHAR,
+    Prisao BOOLEAN,
+    Domestico BOOLEAN,
+    DataUltimaAtualizacao TIMESTAMP,
+    Latitude FLOAT,
+    Longitude FLOAT,
+    Local VARCHAR,
+    IUCR INTEGER,
+    Beat INTEGER
+);
+ 
+ALTER TABLE Casos ADD CONSTRAINT FK_Casos_2
+    FOREIGN KEY (IUCR???, Beat???)
+    REFERENCES ??? (???);
