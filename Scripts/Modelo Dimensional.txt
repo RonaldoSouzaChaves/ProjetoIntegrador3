@@ -20,18 +20,18 @@ CREATE TABLE dTempo (
 
 CREATE TABLE dLocalizacao (
     skBeat INTEGER PRIMARY KEY,
-    Distrito INTEGER,
-    Ala INTEGER,
-    AreaComunitaria INTEGER
+    Distrito INTEGER
 );
 
 CREATE TABLE dCasos (
     skID INTEGER PRIMARY KEY,
-    NumeroCaso INTEGER,
+    NumeroCaso VARCHAR,
     Data TIMESTAMP,
     DescricaoLocal VARCHAR,
     Prisao BOOLEAN,
     Domestico BOOLEAN,
+    Ala INTEGER,
+    AreaComunitaria INTEGER,
     DataUltimaAtualizacao TIMESTAMP,
     Latitude FLOAT,
     Longitude FLOAT,
