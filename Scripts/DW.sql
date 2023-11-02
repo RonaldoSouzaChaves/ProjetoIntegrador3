@@ -3,8 +3,7 @@
 CREATE TABLE dim_TipoCrime (
     IUCR VARCHAR(20) PRIMARY KEY,
     CategoriaCrime VARCHAR(100),
-    DescricaoCrime VARCHAR(200),
-    CodigoFBI VARCHAR(20)
+    DescricaoCrime VARCHAR(200)
 );
 
 SELECT * FROM dim_TipoCrime;
