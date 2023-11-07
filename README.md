@@ -1,13 +1,5 @@
-Desenvolvido por:
+# Crimes em Chicago (2000 - 2023)
 
-Carlos Eduardo Pires Panzarini;
+Este projeto tem como objetivo observar padrões e tendências dentro de um conjunto de dados que documenta crimes cometidos na cidade de Chicago (Illinois, EUA) entre 2000 e 2023.
 
-Estela de Souza Moraes;
-
-Iara Lourenço da Silva;
-
-Kaline Maria de Moura;
-
-Laís Uchôa Rabelo Mendes;
-
-Ronaldo Souza Chaves.
+Desenvolvido por Carlos Panzarini, Estela Moraes, Iara Silva, Kaline Moura, Laís Uchôa e Ronaldo Chaves.
