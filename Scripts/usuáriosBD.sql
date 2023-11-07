@@ -47,12 +47,14 @@ DROP ROLE nomeUsuario;
 -- conferindo quais privilégios o usuário tem em cada tabela:
 SELECT grantee, table_name, privilege_type FROM information_schema.role_table_grants WHERE grantee = 'nomeUsuario';
 
--- daqui pra baixo, comandos a serem passados no terminal psql:
+/*
+daqui pra baixo, comandos a serem passados no terminal psql:
 
--- listando todos os bancos de dados no servidor:
+listando todos os bancos de dados no servidor:
 
 \l
 
--- listando todos os usuários e seus privilégios em um banco de dados:
+listando todos os usuários e seus privilégios em um banco de dados:
 
 \du
+*/

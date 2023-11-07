@@ -1,6 +1,4 @@
-OBS: As SK com exceção das skDataTempo são auto incrementais de tipo SERIAL no Postgre
-
-
+-- OBS: As SK com exceção das skDataTempo são auto incrementais de tipo SERIAL no PostgreSQL
 
 CREATE TABLE fCasosDistrito (
     skBeat INTEGER,
