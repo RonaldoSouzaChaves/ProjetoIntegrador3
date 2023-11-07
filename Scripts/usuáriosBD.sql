@@ -23,6 +23,10 @@ BEGIN
 END
 $$;
 
+-- mudando a senha de um usuário
+
+ALTER USER nomeUsuario WITH PASSWORD 'novaSenha';
+
 -- removendo todos os privilégios de todas as tabelas de um usuário:
 
 DO $$ 
